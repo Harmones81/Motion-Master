@@ -198,5 +198,10 @@ namespace MotionMaster.Input
 
             return false;
         }
+
+        private void OnGUI()
+        {
+            
+        }
     }
 }
