@@ -4,6 +4,9 @@ using UnityEngine.InputSystem;
 
 namespace MotionMaster.Input
 {
+    /// <summary>
+    /// class that reads input utilizing the input action asset
+    /// </summary>
     public class InputReader : Controls.IGameActions, Controls.IMenuActions
     {
         public event Action<Vector2> onDirectionChange;
