@@ -7,4 +7,4 @@ This repository contains a robust input system for a fighting game developed usi
 ## User & Device Management
 This part of the system ensures the smooth handling of players and their respective input devices. It manages multiple controllers, allowing for easy addition and removal of players during gameplay.
 ### Features
-- [Main User]: The main user functions as the 
+- Main User: The main user functions as the 
