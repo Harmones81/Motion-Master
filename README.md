@@ -7,4 +7,7 @@ This repository contains a robust input system for a fighting game developed usi
 ## User & Device Management
 This part of the system ensures the smooth handling of players and their respective input devices. It manages multiple controllers, allowing for easy addition and removal of players during gameplay.
 ### Features
-- Main User: The main user functions as the 
+- Main User: The main user functions as the core user of the application and; thus, gets various privileges, which are: access to the keyboard, always getting the first connected device, and never being removed from the system.
+- Dynamic Player Registration: Automatically recognizes when a new controller or keyboard is connected and assigns it to a player.
+- Device Mapping: Maps different devices (e.g., gamepads, keyboards) to user profiles, enabling easy swapping or reconnecting without data loss.
+- Player Disconnect/Reconnect: Handles cases where a player’s device is disconnected and allows different reconnection behaviors depending on the input object.
