@@ -35,6 +35,8 @@ The Input Commands & Actions component handles interpreting raw inputs into comm
 - **Input Data:** Represents the player's input on a single frame as well as other important aspects such as how long they held the input, whether the input was used for a command, and whether it's in an executable state.
 - **Input Buffer:** A custom data structure that holds the player's inputs for a predefined number of frames and is what's used to check for complex motion commands.
 - **Input Command:** A scriptable object that allows for customization of in-game commands such as the sequence of inputs needed to execute the command, the timing window allowed to execute the command, and the priority of the command.
+## Bit Flags
+Using bit flags to represent in-game inputs is something I recommend anyone should do since it makes things such as multiple button presses easier. For example, in Street Fighter 6 parry is performed by pressing MP + MK. With bit flags, you can easily represent that command with bitwise operators like this *MP_and_MK = MP | MK*.
 ## Additional Implementations
 This is simply a list of features that one could look into to enhance the system further. I will also try to implement them into this project when I have the chance but what's there now can serve as a base for a "simple" version of a fighting game input system.
 ### Features
