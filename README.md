@@ -13,4 +13,6 @@ This part of the system ensures the smooth handling of players and their respect
 - **Player Disconnect/Reconnect:** Handles cases where a player’s device is disconnected and allows different reconnection behaviors depending on the input object.
 ### Components
 - **Input User:** A class that represents a user in the system.
-- **Input Manager:** The
+- **Input Manager:** A singleton that handles most of the user and device management functionalities. It also has 3 events that objects can subscribe to when the main user's device changes, when a new user gets added, and when a user gets removed.
+## Reading & Receiving Input
+This section of the system handles reading input from connected devices and transforming it into usable data within Unity. The input reading is designed to be responsive and supports both analog and digital input types.
